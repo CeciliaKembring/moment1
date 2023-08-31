@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Bootstrap</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Moment 1</a></div>
+        <div class="menu">
+            <div class="menu1">
+                <a href="index.html">Startsida</a>
+            </div>
+            <div class="menu2">
+                <div class="active">
+                    <a href="bs.html">Bootstrap</a>
+                   </div>
+            </div>
+            <div class="menu3">
+                <a href="#">Tre</a>
+            </div>
+        </div>
+    
+    </header>
+
+    <div class="container">
+        <h1>Bootstrap</h1>
+        <div class="row">
+            <h2>Vad är Bootstrap?</h2>
+            <p>Bootstrap är ett färdigt, kostnadsfritt ramverk för utveckling av responsiva webbplatser.</p>
+            <p>Bootstrap innefattar HTML, CSS och JavaScript och har färdig kod för exempelvis knappar, tabeller och navigering.</p>
+            <a href="https://getbootstrap.com/">Länk till Bootstraps webbplats</a>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h2>Fördelar</h2>
+                <ul>
+                    <li>Det går snabbt och smidigt att utveckla i Bootstrap. </li>
+                    <li>Det är ett enkelt ramverk att lära sig.</li>
+                    <li>Det är responisvt vilket även underlättar för alla skärmar och gör det mer tillgängligt.</li>
+                    <li>Man får snabbt resultat.</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h2>Nackdelar</h2>
+                <ul>
+                    <li>De förbestämda klasserna som utgör Bootstrap kan resultera i mycket kod</li>
+                    <li>Eftersom Bootstrap är populärt resulterar det även i att många webbplatser har liknande utseende.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+    <div class="table-responsive">  
+        <h3>Exempel på tabell i Bootstrap</h3>        
+        <table class="table">
+          <thead>
+            <tr class="table-success">
+              <th>Land</th>
+              <th>Huvudstad</th>
+              <th>Invånare</th>
+              <th>Nationaldag</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Danmark</td>
+              <td>Köpenhamn</td>
+              <td>5,857 miljoner</td>
+              <td>5 juni</td>
+            </tr>
+            <tr class="table-success">
+                <td>Norge</td>
+                <td>Oslo</td>
+                <td>5,408 miljoner</td>
+                <td>17 maj</td>
+              </tr>
+              <tr>
+                <td>Finland</td>
+                <td>Helsingfors</td>
+                <td>5,541 miljoner</td>
+                <td>6 december</td>
+              </tr>
+              <tr class="table-success">
+                <td>Island</td>
+                <td>Reykjavik</td>
+                <td>372 tusen</td>
+                <td>17 juni</td>
+              </tr>
+              <tr>
+                <td>Sverige</td>
+                <td>Stockholm</td>
+                <td>10,42 miljoner</td>
+                <td>6 juni</td>
+              </tr>
+          </tbody>
+        </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Exempel på formulär i Bootstrap</h3>
+        <form action="bs.html">
+            <div class="form-group">
+              <label for="fname">Förnamn:</label>
+              <input type="text" class="form-control" id="fname">
+            </div>
+            <div class="form-group">
+              <label for="sname">Efternam:</label>
+              <input type="text" class="form-control" id="sname">
+            </div>
+            <button type="button" class="btn btn-success">OK</button>
+          </form>
+    </div>
+</body>
+</html>
