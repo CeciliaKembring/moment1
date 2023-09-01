@@ -3,8 +3,15 @@
     padding: 0; 
     font-family: sans-serif;
 }
+main{
+    min-height: 70vh;
+}
+.break{
+    margin-top: 20px;
+}
+
 header{
-    background-color: lightblue;
+    background-color:  rgb(200, 224, 232);
 }
 .logo a{
     text-decoration: none;
@@ -18,23 +25,19 @@ header{
     justify-content: center;
 }
 .menu a{
-    text-decoration: none;
     color: black;
-    margin-left: 20px;
-    font-size: 16px;
-    padding: 15px;
+    font-size: 20px;
 }
 .menu a:hover{
-    border-radius:20px;
-    background-color: white;
+color: white;
 }
 .menu{
-display: grid;
-grid-template-areas: 'menu1 menu2 menu3';
-max-width: 400px;
-margin: 0 auto;
-padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
 }
+
 .active{
   text-decoration: underline;
 }
@@ -52,3 +55,70 @@ h1{
 .row{
     margin-bottom: 30px;
 }
+footer p{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px;
+}
+footer{
+    margin-top: 40px;
+    background-color: rgb(200, 224, 232);
+    position: relative;
+    bottom: 0;
+    left:0;
+    right: 0;
+    padding: 20px;
+}
+section{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.sectionA{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.sectionB{
+  display: grid;
+  grid-template-areas: 'bs'
+  'mg'
+  'pub';
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bs, .mg, .pub{
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 20px;
+    width: 150px;
+}
+.bs{
+    background-color: #8612FB;
+}
+.bs:hover, .mg:hover, .pub:hover{
+    background-color: #a67bd1;
+}
+.mg{
+    background-color: #AE22CB;
+}
+.pub{
+    background-color: #DC94C4;
+}
+
+@media screen and (min-width: 700px) {
+  .sectionB{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  }
+
+
+
