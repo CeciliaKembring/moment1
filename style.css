@@ -110,6 +110,9 @@ section{
 .pub{
     background-color: #DC94C4;
 }
+#bsTextarea{
+    margin: 10px 0;
+}
 
 @media screen and (min-width: 700px) {
   .sectionB{
