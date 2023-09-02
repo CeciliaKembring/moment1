@@ -73,10 +73,11 @@ footer{
 section{
     max-width: 900px;
     margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 .sectionA{
     margin-top: 40px;
-    padding: 20px;
 }
 
 .sectionB{
@@ -112,6 +113,9 @@ section{
 }
 #bsTextarea{
     margin: 10px 0;
+}
+.pubSec ul{
+    margin-left: 20px;
 }
 
 @media screen and (min-width: 700px) {
